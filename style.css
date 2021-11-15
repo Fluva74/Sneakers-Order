@@ -1,0 +1,129 @@
+:root {
+  --orange: hsl(26, 100%, 55%);
+  --pale-orange: hsl(25, 100%, 94%);
+  --dark-blue: hsl(220, 13%, 13%);
+  --dark-gray-blue: hsl(219, 9%, 45%);
+  --gray-blue: hsl(220, 14%, 75%);
+  --light-blue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: rgba(0, 0, 0, 7.5%);
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo {
+  height: 1.3rem;
+}
+
+nav ul {
+  margin-left: -2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  font-size: 0.85rem;
+  color: var(--gray-blue);
+  text-decoration: none;
+}
+
+nav .icon-cart {
+  height: 1.3rem;
+  padding-left: 25rem;
+}
+
+nav .cart-counter {
+  display: none;
+  position: absolute;
+  margin-left: 59.5rem;
+  margin-top: -1rem;
+  width: 20px;
+  height: 11px;
+  background-color: var(--orange);
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+nav .avatar {
+  height: 3rem;
+}
+
+.cart-box {
+  display: none;
+}
+
+.slideshow {
+  display: none;
+}
+
+.container {
+  padding: 2rem 5rem;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-left {
+  width: 50%;
+  padding: 4rem;
+}
+
+.card-right {
+  width: 50%;
+  padding: 4rem;
+}
+
+.hero-image {
+  display: none;
+  width: 25rem;
+  border-radius: 25px;
+}
+
+.big {
+  display: block;
+}
+
+.hero-thumb {
+  width: 5rem;
+  margin-left: 0.9rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+}
