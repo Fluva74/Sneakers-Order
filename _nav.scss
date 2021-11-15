@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        height: 1.3rem;
+    }
+    ul {
+        margin-left: -2rem;
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style: none;
+            margin-left: 1rem;
+            a {
+                font-size: 0.85rem;
+                color: var(--gray-blue);
+                text-decoration: none;
+            }
+        }
+    }
+    .icon-cart {
+        height: 1.3rem;
+        padding-left: 25rem;
+    }
+    .cart-counter {
+        display: none;
+        position: absolute;
+        margin-left: 59.5rem;
+        margin-top: -1rem;
+        width: 20px;
+        height: 11px;
+        background-color: var(--orange);
+        font-size: 0.5rem;
+        font-weight: bold;
+        color: white;
+        border-radius: 12px;
+        text-align: center;
+    }
+    .avatar {
+        height: 3rem;
+    }
+}
